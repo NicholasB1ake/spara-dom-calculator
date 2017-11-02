@@ -1,4 +1,4 @@
-// Number buttons defined as variables
+// Number buttons defined as variables ----------------->
 var buttons = (document.getElementsByClassName('buttonNum'))
 
 var b7 = (document.getElementsByClassName('buttonNum'))[0];
@@ -10,7 +10,7 @@ var b6 = (document.getElementsByClassName('buttonNum'))[5];
 var b1 = (document.getElementsByClassName('buttonNum'))[6];
 var b2 = (document.getElementsByClassName('buttonNum'))[7];
 var b3 = (document.getElementsByClassName('buttonNum'))[8];
-// operators defined as variables
+// operators defined as variables------------------------>
 var operator = (document.getElementsByClassName('operator'))
 
 var bmult = (document.getElementsByClassName('operator'))[0];
@@ -22,6 +22,8 @@ var equals = (document.getElementsByClassName('equals'))
 var clear = (document.getElementsByClassName('buttonClear'))
 
 var screen = document.getElementById('screen')
+
+// Event listeners and fucntions --------------------------->
 
 b7.addEventListener("click", function(){
   console.log(7)
@@ -94,6 +96,8 @@ badd.addEventListener("click", function(){
       screen.innerHTML = '+'
 
 });
+
+
 
 
 
